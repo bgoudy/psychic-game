@@ -44,7 +44,7 @@ startOver();
 
 else if (guessesRem === 0){
 losses++;
-document.querySelector("#lose").innerHTML = "Loses " + losses;
+document.querySelector("#losses").innerHTML = "Losses " + losses;
 startOver();
 }
 
